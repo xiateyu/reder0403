@@ -1,9 +1,9 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
 const projectPageURL = process.env.URL || '';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
-const UUID = process.env.UUID || '89c13786-25aa-4520-b2e7-12cd60fb5202';	// 替换UUID，√
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';              // 固定隧道域名，留空即启用临时隧道√
-const ARGO_AUTH = process.env.ARGO_AUTH || '';                 // 固定隧道json或token，留空即启用临时隧道√
+const UUID = process.env.UUID || 'a13928a2-5cc0-4ec3-971f-588f91668e88';	// 替换UUID，√
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'sdtrt.hjgfyuijui.gay';              // 固定隧道域名，留空即启用临时隧道√
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"e5c5122810111ae869b1af274c267e93","TunnelSecret":"8yHVAiRNw3aJMq3uifgaoDddCIAzOQts8WFrGQf/IRw=","TunnelID":"3d1c9b47-a4f1-479b-933b-697b5856eb10"}';                 // 固定隧道json或token，留空即启用临时隧道√
 const CFIP = process.env.CFIP || 'government.se';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
